@@ -2,9 +2,9 @@
 #include <string>
 
 int main() {
-    int a = 2, b = 7;
+    string name = "Roma";
 
-    std::cout << a + b << std::endl;
-    
+    std::cout << "Your name is " << name << std::endl;
+
     return 0;
 }
