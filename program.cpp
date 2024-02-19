@@ -2,9 +2,8 @@
 #include <string>
 
 int main() {
-    string name;
+    string name = "Roma";
 
-    std::cout << "What is your name: " << std::endl; std::cin >> name;
     std::cout << "Your name is " << name << std::endl;
 
     return 0;
