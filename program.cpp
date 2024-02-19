@@ -2,10 +2,9 @@
 #include <string>
 
 int main() {
-    string name;
+    int a = 2, b = 7;
 
-    std::cout << "What is your name: " << std::endl; std::cin >> name;
-    std::cout << "Your name is " << name << std::endl;
-
+    std::cout << a + b << std::endl;
+    
     return 0;
 }
